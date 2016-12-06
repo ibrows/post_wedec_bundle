@@ -1,0 +1,29 @@
+{
+  "name": "ibrows/post_wedec_library",
+  "type": "library",
+  "description": "Basic usage of POST WEDEC API focusing on Delivery scope in initial versions.",
+  "keywords": ["WEDEC", "swiss post", "post"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vahid Moradi",
+      "email": "vahid.moradi@pwc-digital.ch",
+      "homepage": "http://www.pwc-digital.ch",
+      "role": "Software Engineer"
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "guzzlehttp/psr7": ">=1.3.1",
+    "guzzlehttp/guzzle": "^6.1",
+    "jms/serializer-bundle": "~0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">5.6"
+  },
+  "autoload": {
+    "psr-0": {
+      "Ibrows\\PostWedecLibrary\\": ""
+    }
+  }
+}
