@@ -1,5 +1,5 @@
 {
-  "name": "ibrows/post_wedec_library",
+  "name": "ibrows/post_wedec_bundle",
   "type": "library",
   "description": "Basic usage of POST WEDEC API focusing on Delivery scope in initial versions.",
   "keywords": ["WEDEC", "swiss post", "post"],
