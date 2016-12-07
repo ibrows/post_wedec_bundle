@@ -5,11 +5,12 @@
     xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <services>
-        <service id="ibrows_post_wedec.serializer.wedec_object_serializer" class="Ibrows\PostWedecBundle\Serializer\WedecObjectSerializer">
+        <service id="ibrows_post_wedec.serializer.wedec_object_serializer"
+                 class="Ibrows\PostWedecBundle\Serializer\WedecObjectSerializer">
             <argument type="service" id="serializer"/>
         </service>
         <service id="ibrows_post_wedec.api.delivery.wedec_delivery_manager"
-                 class="GoDoItBundle\Delivery\WedecDeliveryBundle\WedecDeliveryManager">
+                 class="Ibrows\PostWedecBundle\Api\Delivery\WedecDeliveryBundle">
             <argument type="string">%wedec_client_id%</argument>
             <argument type="string">%wedec_client_secret%</argument>
             <argument type="service" id="ibrows_post_wedec.serializer.wedec_object_serializer"/>

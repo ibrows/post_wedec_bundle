@@ -1,0 +1,91 @@
+{
+  "days": [
+    {
+      "deliveryDate": "2016-12-22",
+      "deliverabilities": [
+        {
+          "incomingDate": "2016-12-22",
+          "productCode": "AZS,DIR"
+        }
+      ],
+      "activity": "WORK"
+    },
+    {
+      "deliveryDate": "2016-12-23",
+      "deliverabilities": [
+        {
+          "incomingDate": "2016-12-22",
+          "productCode": "PRI"
+        },
+        {
+          "incomingDate": "2016-12-22",
+          "productCode": "SEM"
+        },
+        {
+          "incomingDate": "2016-12-23",
+          "productCode": "AZS,DIR"
+        },
+        {
+          "incomingDate": "2016-12-22",
+          "productCode": "AZS,PRI"
+        }
+      ],
+      "activity": "WORK"
+    },
+    {
+      "deliveryDate": "2016-12-24",
+      "deliverabilities": [
+        {
+          "incomingDate": "2016-12-23",
+          "productCode": "PRI,SA"
+        },
+        {
+          "incomingDate": "2016-12-23",
+          "productCode": "SEM"
+        }
+      ],
+      "activity": "WORK"
+    },
+    {
+      "deliveryDate": "2016-12-25",
+      "deliverabilities": [],
+      "activity": "SUNDAY"
+    },
+    {
+      "deliveryDate": "2016-12-26",
+      "deliverabilities": [],
+      "activity": "HOLIDAY"
+    },
+    {
+      "deliveryDate": "2016-12-27",
+      "deliverabilities": [
+        {
+          "incomingDate": "2016-12-22",
+          "productCode": "ECO"
+        },
+        {
+          "incomingDate": "2016-12-23",
+          "productCode": "PRI"
+        },
+        {
+          "incomingDate": "2016-12-24",
+          "productCode": "SEM"
+        },
+        {
+          "incomingDate": "2016-12-27",
+          "productCode": "AZS,DIR"
+        },
+        {
+          "incomingDate": "2016-12-23",
+          "productCode": "AZS,PRI"
+        },
+        {
+          "incomingDate": "2016-12-22",
+          "productCode": "AZS,ECO"
+        }
+      ],
+      "activity": "WORK"
+    }
+  ],
+  "quality": "RELIABLE"
+}
