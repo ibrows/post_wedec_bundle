@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Ibrows\PostWedecBundle\Api\Delivery\WedecDeliveryBundle\Entity;
+namespace Ibrows\PostWedecBundle\Api\Delivery\Entity;
 
 
 use JMS\Serializer\Annotation as Serializer;

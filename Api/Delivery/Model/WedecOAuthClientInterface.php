@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Ibrows\PostWedecBundle\Api\Delivery\WedecDeliveryBundle\Model;
+namespace Ibrows\PostWedecBundle\Api\Delivery\Model;
 
 
 interface WedecOAuthClientInterface

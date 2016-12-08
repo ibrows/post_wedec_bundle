@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Ibrows\PostWedecBundle\Api\Delivery\WedecDeliveryBundle\Util;
+namespace Ibrows\PostWedecBundle\Api\Delivery\Util;
 
 
-use Ibrows\PostWedecBundle\Api\Delivery\WedecDeliveryBundle\Model\WedecAddressInterface;
-use Ibrows\PostWedecBundle\Api\Delivery\WedecDeliveryBundle\Model\WedecDeliveryAddressInterface;
+use Ibrows\PostWedecBundle\Api\Delivery\Model\WedecAddressInterface;
+use Ibrows\PostWedecBundle\Api\Delivery\Model\WedecDeliveryAddressInterface;
 
 class WedecDeliverabilitiesUriBuilder
 {

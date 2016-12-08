@@ -10,7 +10,7 @@
             <argument type="service" id="serializer"/>
         </service>
         <service id="ibrows_post_wedec.api.delivery.wedec_delivery_manager"
-                 class="Ibrows\PostWedecBundle\Api\Delivery\WedecDeliveryBundle\WedecDeliveryManager">
+                 class="Ibrows\PostWedecBundle\Api\Delivery\WedecDeliveryManager">
             <argument type="string">%wedec_client_id%</argument>
             <argument type="string">%wedec_client_secret%</argument>
             <argument type="service" id="ibrows_post_wedec.serializer.wedec_object_serializer"/>

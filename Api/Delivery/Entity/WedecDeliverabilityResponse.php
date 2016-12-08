@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Ibrows\PostWedecBundle\Api\Delivery\WedecDeliveryBundle\Entity;
+namespace Ibrows\PostWedecBundle\Api\Delivery\Entity;
 
 
 use JMS\Serializer\Annotation\SerializedName;
@@ -26,7 +26,7 @@ class WedecDeliverabilityResponse
     const QUALITY_NOT_USABLE = 'NOT_USABLE';
 
     /**
-     * @Type("array<Ibrows\PostWedecBundle\Api\Delivery\WedecDeliveryBundle\Entity\WedecDeliveryDay>")
+     * @Type("array<Ibrows\PostWedecBundle\Api\Delivery\Entity\WedecDeliveryDay>")
      * @SerializedName("days")
      * @var WedecDeliveryDay[]
      */

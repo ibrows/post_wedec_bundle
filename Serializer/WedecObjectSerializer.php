@@ -4,8 +4,8 @@
 namespace Ibrows\PostWedecBundle\Serializer;
 
 
-use Ibrows\PostWedecBundle\Api\Delivery\WedecDeliveryBundle\Entity\WedecDeliverabilityResponse;
-use Ibrows\PostWedecBundle\Api\Delivery\WedecDeliveryBundle\Entity\WedecOAuthResponse;
+use Ibrows\PostWedecBundle\Api\Delivery\Entity\WedecDeliverabilityResponse;
+use Ibrows\PostWedecBundle\Api\Delivery\Entity\WedecOAuthResponse;
 use JMS\Serializer\Serializer;
 
 class WedecObjectSerializer

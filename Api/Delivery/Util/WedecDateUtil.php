@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Ibrows\PostWedecBundle\Api\Delivery\WedecDeliveryBundle\Util;
+namespace Ibrows\PostWedecBundle\Api\Delivery\Util;
 
 
 class WedecDateUtil

@@ -1,15 +1,15 @@
 <?php
 
 
-namespace Ibrows\PostWedecBundle\Api\Delivery\WedecDeliveryBundle;
+namespace Ibrows\PostWedecBundle\Api\Delivery;
 
-use Ibrows\PostWedecBundle\Api\Delivery\WedecDeliveryBundle\Entity\WedecDeliverabilityResponse;
-use Ibrows\PostWedecBundle\Api\Delivery\WedecDeliveryBundle\Model\WedecAddressInterface;
-use Ibrows\PostWedecBundle\Api\Delivery\WedecDeliveryBundle\Model\WedecDeliveryAddressInterface;
-use Ibrows\PostWedecBundle\Api\Delivery\WedecDeliveryBundle\Model\WedecOAuthClientInterface;
-use Ibrows\PostWedecBundle\Api\Delivery\WedecDeliveryBundle\Util\WedecDeliverabilitiesUriBuilder;
-use Ibrows\PostWedecBundle\Api\Delivery\WedecDeliveryBundle\Util\WedecOAuthUriBuilder;
-use Ibrows\PostWedecBundle\Api\Delivery\WedecDeliveryBundle\Util\WedecObjectSerializer;
+use Ibrows\PostWedecBundle\Api\Delivery\Entity\WedecDeliverabilityResponse;
+use Ibrows\PostWedecBundle\Api\Delivery\Model\WedecAddressInterface;
+use Ibrows\PostWedecBundle\Api\Delivery\Model\WedecDeliveryAddressInterface;
+use Ibrows\PostWedecBundle\Api\Delivery\Model\WedecOAuthClientInterface;
+use Ibrows\PostWedecBundle\Api\Delivery\Util\WedecDeliverabilitiesUriBuilder;
+use Ibrows\PostWedecBundle\Api\Delivery\Util\WedecOAuthUriBuilder;
+use Ibrows\PostWedecBundle\Api\Delivery\Util\WedecObjectSerializer;
 use GuzzleHttp\Psr7\Request;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
@@ -17,7 +17,7 @@ use Psr\Http\Message\ResponseInterface;
 /**
  * Class WedecDeliveryManager - In charge of processing responses, building Requests, and giving them back as
  * RequestInterface.
- * @package Ibrows\PostWedecBundle\Api\Delivery\WedecDeliveryBundle
+ * @package Ibrows\PostWedecBundle\Api\Delivery
  */
 class WedecDeliveryManager implements WedecOAuthClientInterface
 {

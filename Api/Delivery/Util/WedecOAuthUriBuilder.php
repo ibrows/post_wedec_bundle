@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Ibrows\PostWedecBundle\Api\Delivery\WedecDeliveryBundle\Util;
+namespace Ibrows\PostWedecBundle\Api\Delivery\Util;
 
 
-use Ibrows\PostWedecBundle\Api\Delivery\WedecDeliveryBundle\Model\WedecOAuthClientInterface;
+use Ibrows\PostWedecBundle\Api\Delivery\Model\WedecOAuthClientInterface;
 
 class WedecOAuthUriBuilder
 {

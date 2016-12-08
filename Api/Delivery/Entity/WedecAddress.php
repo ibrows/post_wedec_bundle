@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Ibrows\PostWedecBundle\Api\Delivery\WedecDeliveryBundle\Entity;
+namespace Ibrows\PostWedecBundle\Api\Delivery\Entity;
 
 
-use Ibrows\PostWedecBundle\Api\Delivery\WedecDeliveryBundle\Model\WedecAddressInterface;
+use Ibrows\PostWedecBundle\Api\Delivery\Model\WedecAddressInterface;
 
 class WedecAddress implements WedecAddressInterface
 {

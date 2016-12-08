@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Ibrows\PostWedecBundle\Api\Delivery\WedecDeliveryBundle\Entity;
+namespace Ibrows\PostWedecBundle\Api\Delivery\Entity;
 
 
 use JMS\Serializer\Annotation as Serializer;
@@ -37,7 +37,7 @@ class WedecDeliveryDay
     private $deliveryDate;
 
     /**
-     * @Type("array<Ibrows\PostWedecBundle\Api\Delivery\WedecDeliveryBundle\Entity\WedecDeliverability>")
+     * @Type("array<Ibrows\PostWedecBundle\Api\Delivery\Entity\WedecDeliverability>")
      * @Serializer\SerializedName("deliverabilities")
      * @var WedecDeliverability[]
      */
