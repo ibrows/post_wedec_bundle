@@ -133,7 +133,7 @@ class WedecDeliveryManager implements WedecOAuthClientInterface
     public function setAccessTokenWithResponse(ResponseInterface $response)
     {
         if (200 === $response->getStatusCode()) {
-            $this->setAccessTokenWithJson($response->getBody());
+            $this->setAccessTokenWithJson($response->getBody()->getContents());
         }
         // TODO: throw an exception - domain specific
     }
@@ -147,7 +147,7 @@ class WedecDeliveryManager implements WedecOAuthClientInterface
      */
     public function getDeliveryDays(ResponseInterface $response, $reliable = true, $usable = true)
     {
-        $json = $response->getBody();
+        $json = $response->getBody()->getContents();
 
         $days = $this->getDeliveryDaysForJsonResponse($json, $reliable, $usable);
 
